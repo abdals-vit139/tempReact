@@ -13,7 +13,7 @@ pipeline{
                 sh 'npm install'
             }   
         }
-       
+
         stage('Start application'){
             steps{
                 sh 'npm start'
