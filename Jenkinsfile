@@ -10,7 +10,6 @@ pipeline{
         stage('install Dependencies')
         {
             steps{
-                // sh is used to run file in terminal
                 sh 'npm install'
             }   
         }
